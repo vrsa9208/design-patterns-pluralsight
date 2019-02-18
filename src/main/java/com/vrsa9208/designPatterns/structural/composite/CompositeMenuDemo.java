@@ -18,5 +18,6 @@ public class CompositeMenuDemo {
 		claimsSubmenu.add(personalClaimsMenu);
 		
 		System.out.println(mainMenu.toString());
+		
 	}
 }
