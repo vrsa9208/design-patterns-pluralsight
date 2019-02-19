@@ -1,9 +1,13 @@
 package com.vrsa9208.designPatterns.structural.facade;
 
+import java.util.List;
+
 public class FacadeDemo {
+
 	public static void main(String[] args) {
-		MarvelApiFacade marvelApiFacade = new MarvelApiFacadeImpl();
+		List<String> dishes = new MockApiFacadeImpl().getDishesNames();
 		
-		marvelApiFacade.getCharacters();
+		System.out.println(dishes);
 	}
+
 }
