@@ -6,7 +6,7 @@ public class InterpreterDemo {
 		
 		Expression terminal1 = new TerminalExpression("Lions");
 		Expression terminal2 = new TerminalExpression("Tigers");
-		Expression terminal3 = new TerminalExpression("Bears");
+		//Expression terminal3 = new TerminalExpression("Bears");
 		
 		return new AndExpression(terminal1, terminal2);
 	}
